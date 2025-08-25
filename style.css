@@ -2,3 +2,12 @@
     font-size:30px;
     color:red;
 }
+
+body{
+    padding:5px;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+}
