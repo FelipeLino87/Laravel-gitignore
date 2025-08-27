@@ -1,0 +1,16 @@
+name: Run Testss
+
+# Dispara o workflow em push ou pull request
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Faz o checkout do código do repositório
+      - uses: actions/checkout@v3
+
+      # Executa algum comando de teste (simulado aqui)
+      - name: Run testss
+        run: echo "Rodando testes automatizadossasdf..."
