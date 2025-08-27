@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run Testss
 
 # Dispara o workflow em push ou pull request
 on: [push, pull_request]
@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v3
 
       # Executa algum comando de teste (simulado aqui)
-      - name: Run tests
-        run: echo "Rodando testes automatizados..."
+      - name: Run testss
+        run: echo "Rodando testes automatizadossasdf..."
